@@ -296,9 +296,9 @@ document.addEventListener('click',(e)=>{
   }
   speak(); 
 });
-// window.oncontextmenu = () => {
-//   return false;
-// }
+window.oncontextmenu = () => {
+  return false;
+}
 document.body.addEventListener('keydown', function (e) {
   if ((e.ctrlKey && e.key === 'u') || 
       (e.ctrlKey && e.key === 'p') || 
@@ -400,7 +400,7 @@ socialIcons.forEach(icons=>{
       window.open('https://wa.me/qr/ZO3IQ3ZSXTASJ1','_blank');
     }
     if(icons.classList.contains('twitter')){
-      // window.open('https://www.facebook.com/darpan.adhikari2','_blank');
+      window.open('https://x.com/Darpan_3','_blank');
     }
     if(icons.classList.contains('youtube')){
       window.open('https://www.youtube.com/channel/UC3aO9DqsvyvIufXQSubbeeA','_blank');
