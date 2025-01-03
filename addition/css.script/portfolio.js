@@ -52,7 +52,7 @@ function scrollPage(currentPage){
   document.querySelectorAll("#navBar li").forEach(navBtn=>{
     navBtn.classList.remove("active");
   });
-  document.title = "Darpan Adhikari || "+document.querySelectorAll("#navBar li")[currentPage].textContent;
+  document.title = "therpaan || "+document.querySelectorAll("#navBar li")[currentPage].textContent;
   document.querySelectorAll("#navBar li")[currentPage].classList.add("active");
 }
 document.addEventListener('scroll',(e)=>{
