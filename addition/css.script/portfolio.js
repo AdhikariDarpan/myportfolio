@@ -52,7 +52,7 @@ function scrollPage(currentPage){
   document.querySelectorAll("#navBar li").forEach(navBtn=>{
     navBtn.classList.remove("active");
   });
-  document.title = "therpaan || "+document.querySelectorAll("#navBar li")[currentPage].textContent;
+  document.title = "Darpan Adhikari || "+document.querySelectorAll("#navBar li")[currentPage].textContent;
   document.querySelectorAll("#navBar li")[currentPage].classList.add("active");
 }
 document.addEventListener('scroll',(e)=>{
@@ -355,7 +355,7 @@ function speak() {
       if (speechSynthesis.speaking !== true) {
           if ('speechSynthesis' in window) {
               const msg = new SpeechSynthesisUtterance();
-              msg.text = `${greet[greetIng].slice(0, -1)}, I'm Darpan, welcome to my portfolio`;
+              msg.text = `${greet[greetIng].slice(0, -1)}, I'm therpaan, welcome to my portfolio`;
               msg.volume = 0.5;
               window.speechSynthesis.speak(msg);
           }
