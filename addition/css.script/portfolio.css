@@ -590,7 +590,17 @@ div .text {
   font-weight: 600;
   margin-bottom: 10px;
 }
-
+.skills .skill-content ul{
+  list-style-type: square;
+  background: #3399ff;
+  padding: 20px;
+}
+.skills .skill-content ul li {
+  background: #ffe5e5;
+  color: darkred;
+  padding: 5px;
+  margin-left: 35px;
+}
 .skills .skill-content .column {
   width: calc(50% - 30px);
 }
