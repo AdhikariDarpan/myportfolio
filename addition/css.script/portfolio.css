@@ -592,12 +592,12 @@ div .text {
 }
 .skills .skill-content ul{
   list-style-type: square;
-  background: #3399ff;
+  background: #31587f;
   padding: 20px;
 }
 .skills .skill-content ul li {
-  background: #ffe5e5;
-  color: darkred;
+  background: var(--dimlight);
+  color: var(--dark);
   padding: 5px;
   margin-left: 35px;
 }
